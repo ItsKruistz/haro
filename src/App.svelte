@@ -2,7 +2,7 @@
   <section class="body-font">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
-        <h1 class="text-4xl mb-4 font-medium">Hello, I'm Kruistz!</h1>
+        <h1 class="text-4xl mb-4 font-bold">Hello, I'm Kruistz!</h1>
         <p class="mb-8 text-lg leading-normal">An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
       <div class="flex">
         <button class="inline-flex btn btn-primary text-lg rounded-full">Button</button>

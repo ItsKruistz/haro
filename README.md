@@ -7,8 +7,7 @@ This template should help get you started developing with Svelte and TypeScript 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
 ## Package manager required to run this project
-[PNPM]
-(https://pnpm.io)
+[PNPM](https://pnpm.io)
 
 ## Need an official Svelte framework?
 

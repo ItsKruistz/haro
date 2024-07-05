@@ -5,8 +5,8 @@
         <h1 class="text-4xl mb-4 font-bold">Hello, I'm Kruistz!</h1>
         <p class="mb-8 text-lg leading-normal">An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
       <div class="flex">
-        <button class="inline-flex btn btn-primary text-lg rounded-full">Button</button>
-        <button class="ml-3 inline-flex btn text-lg rounded-full">Button</button>
+        <button>Button</button>
+        <button>Button</button>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

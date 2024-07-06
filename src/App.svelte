@@ -3,3 +3,4 @@
 </script>
 
 <Button>Button</Button>
+<Button variant="outline">Button</Button>

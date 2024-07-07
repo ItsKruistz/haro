@@ -11,7 +11,7 @@
         <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
       <div class="flex justify-center">
         <Button>Button</Button>
-        <Button variant="outline" size="sm">Button</Button>
+        <Button variant="outline" size="lg">Button</Button>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

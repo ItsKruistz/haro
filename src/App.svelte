@@ -10,7 +10,7 @@
         <h1 class="text-4xl mb-4 font-bold">Hello, I'm Kruistz!</h1>
         <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
       <div class="flex justify-center">
-        <Button>Button</Button>
+        <Button class="ml-2">Button</Button>
         <Button variant="outline" size="lg">Button</Button>
       </div>
     </div>

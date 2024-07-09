@@ -55,7 +55,7 @@ const config = {
 				sm: "calc(var(--radius) - 4px)"
 			},
 			fontFamily: {
-				sans: ['Pretendard Std Variable', 'system-ui', 'sans-serif']
+				sans: [...fontFamily.sans]
 			}
 		}
 	},

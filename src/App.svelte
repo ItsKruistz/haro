@@ -17,7 +17,7 @@
   }
 </script>
 
-<nav class="bg-gray-800">
+<nav class="bg-white bg-opacity-75 backdrop-blur-md border sticky z-10 top-0">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -78,7 +78,7 @@
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
         <h1 class="text-4xl mb-4 font-bold">Hello, I'm Kruistz!</h1>
-        <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
+        <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take photos too! An hobbyist coder who likes to play gacha games. I also like to take photos too! An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
       <div class="flex justify-center">
         <Button class="mr-2">Button</Button>
         <Button variant="outline">Button</Button>

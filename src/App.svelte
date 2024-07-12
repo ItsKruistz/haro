@@ -21,10 +21,21 @@
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-        <button type="button" on:click={toggleMobileMenu} class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="{mobileMenuOpen}">
-          <span class="sr-only">Open main menu</span>
-          <svg class="block h-6 w-6" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" height="1.5em" width="1.5em"><path fill="currentColor" d="M7.5 36q-.65 0-1.075-.425Q6 35.15 6 34.5q0-.65.425-1.075Q6.85 33 7.5 33h33q.65 0 1.075.425Q42 33.85 42 34.5q0 .65-.425 1.075Q41.15 36 40.5 36Zm0-10.5q-.65 0-1.075-.425Q6 24.65 6 24q0-.65.425-1.075Q6.85 22.5 7.5 22.5h33q.65 0 1.075.425Q42 23.35 42 24q0 .65-.425 1.075-.425.425-1.075.425Zm0-10.5q-.65 0-1.075-.425Q6 14.15 6 13.5q0-.65.425-1.075Q6.85 12 7.5 12h33q.65 0 1.075.425Q42 12.85 42 13.5q0 .65-.425 1.075Q41.15 15 40.5 15Z"/></svg>
-        </button>
+        <Button 
+    on:click={toggleMobileMenu} 
+    class="relative inline-flex items-center justify-center" 
+    aria-controls="mobile-menu" 
+    aria-expanded={mobileMenuOpen ? 'true' : 'false'} 
+    variant="ghost" 
+    size="icon"
+>
+    <span class="sr-only">Open main menu</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <line x1="3" x2="21" y1="12" y2="12" />
+        <line x1="3" x2="21" y1="6" y2="6" />
+        <line x1="3" x2="21" y1="18" y2="18" />
+    </svg>
+</Button>
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">

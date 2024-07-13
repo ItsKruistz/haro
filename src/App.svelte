@@ -27,19 +27,14 @@
     aria-controls="mobile-menu" 
     aria-expanded={mobileMenuOpen ? 'true' : 'false'} 
     variant="ghost" 
-    size="icon"
->
+    size="icon">
     <span class="sr-only">Open main menu</span>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <line x1="3" x2="21" y1="12" y2="12" />
-        <line x1="3" x2="21" y1="6" y2="6" />
-        <line x1="3" x2="21" y1="18" y2="18" />
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-5 h-5" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
 </Button>
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-          <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+          <p class="text-md font-semibold">Kruistz</p>
         </div>
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
@@ -89,7 +84,7 @@
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
         <h1 class="text-4xl mb-4 font-bold">Hello, I'm Kruistz!</h1>
-        <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take photos too! An hobbyist coder who likes to play gacha games. I also like to take photos too! An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
+        <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take some photos too!</p>
       <div class="flex justify-center">
         <Button class="mr-2">Button</Button>
         <Button variant="outline">Button</Button>

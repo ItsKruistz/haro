@@ -17,7 +17,7 @@
   }
 </script>
 
-<nav class="flex items-center justify-between flex-wrap bg-white bg-opacity-75 backdrop-blur-md sticky z-10 top-0 p-2">
+<nav class="flex items-center justify-between flex-wrap bg-white bg-opacity-75 backdrop-blur-md sticky z-10 top-0 p-2.5">
   <div class="flex items-center flex-shrink-0 text-black">
             <Button 
     on:click={toggleMobileMenu} 
@@ -27,11 +27,19 @@
     variant="ghost" 
     size="icon">
     <span class="sr-only">Open main menu</span>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-5 h-5" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-[22px] h-[22px]" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
 </Button>
     <span class="font-semibold text-[19px]">Kruistz's Page</span>
-  </div>
-  <div class="block lg:hidden">
+    <Button 
+    on:click={toggleMobileMenu} 
+    class="relative inline-flex items-center justify-center mr-4" 
+    aria-controls="mobile-menu" 
+    aria-expanded={mobileMenuOpen ? 'true' : 'false'} 
+    variant="ghost" 
+    size="icon">
+    <span class="sr-only">Open main menu</span>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-[22px] h-[22px]" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4-4"/></svg>
+</Button>
   </div>
 </nav>
 

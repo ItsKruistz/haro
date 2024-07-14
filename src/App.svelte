@@ -17,11 +17,11 @@
   }
 </script>
 
-<nav class="flex items-center justify-between flex-wrap bg-teal-500 p-3">
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
+<nav class="flex items-center justify-between flex-wrap bg-white bg-opacity-75 backdrop-blur-md sticky z-10 top-0 p-2">
+  <div class="flex items-center flex-shrink-0 text-black">
             <Button 
     on:click={toggleMobileMenu} 
-    class="relative inline-flex items-center justify-center" 
+    class="relative inline-flex items-center justify-center mr-3.5" 
     aria-controls="mobile-menu" 
     aria-expanded={mobileMenuOpen ? 'true' : 'false'} 
     variant="ghost" 
@@ -29,51 +29,10 @@
     <span class="sr-only">Open main menu</span>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-5 h-5" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
 </Button>
-    <span class="font-semibold text-xl tracking-tight">Kruistz's Page</span>
+    <span class="font-medium text-[20px]">Kruistz's Page</span>
   </div>
   <div class="block lg:hidden">
   </div>
-</nav>
-<nav class="bg-white bg-opacity-75 backdrop-blur-md border sticky z-10 top-0">
-  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div class="relative flex h-16 items-center justify-between">
-      <div class="absolute inset-y-0 left-0 flex items-center">
-        <Button 
-    on:click={toggleMobileMenu} 
-    class="relative inline-flex items-center justify-center" 
-    aria-controls="mobile-menu" 
-    aria-expanded={mobileMenuOpen ? 'true' : 'false'} 
-    variant="ghost" 
-    size="icon">
-    <span class="sr-only">Open main menu</span>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-5 h-5" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
-</Button>
-      </div>
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex flex-shrink-0 items-center">
-          <p class="text-md font-semibold">Kruistz</p>
-        </div>
-      </div>
-      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-        <div class="relative ml-3">
-          <div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  {#if mobileMenuOpen}
-    <div class="sm:hidden" id="mobile-menu">
-      <div class="space-y-1 px-2 pb-3 pt-2">
-        <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base|| font-medium text-white" aria-current="page">Dashboard</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
-      </div>
-    </div>
-  {/if}
 </nav>
 
 <main>

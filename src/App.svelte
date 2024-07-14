@@ -44,6 +44,9 @@
       <div class="flex justify-center">
         <Button class="mr-2">Button</Button>
         <Button variant="outline">Button</Button>
+      <button class="px-4 py-2 rounded-md border border-black bg-white text-neutarl-700 text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
+        Sketch
+      </button>
       </div>
       </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

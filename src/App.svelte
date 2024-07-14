@@ -29,7 +29,7 @@
     <span class="sr-only">Open main menu</span>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-5 h-5" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
 </Button>
-    <span class="font-medium text-[19px]">Kruistz's Page</span>
+    <span class="font-semibold text-[19px]">Kruistz's Page</span>
   </div>
   <div class="block lg:hidden">
   </div>

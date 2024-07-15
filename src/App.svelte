@@ -17,7 +17,7 @@
   }
 </script>
 
-<nav class="flex items-center justify-between flex-wrap bg-white bg-opacity-75 backdrop-blur-md sticky z-10 top-0 p-2.5">
+<nav class="flex items-center justify-between flex-wrap bg-white bg-opacity-75 backdrop-blur-md sticky z-10 top-0 p-2">
   <div class="flex items-center flex-shrink-0 text-black">
             <Button 
     on:click={toggleMobileMenu} 

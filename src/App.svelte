@@ -22,7 +22,7 @@
   <div class="flex items-center flex-shrink-0 text-black">
             <Button 
     on:click={toggleMobileMenu} 
-    class="relative inline-flex items-center justify-center mr-3.5" 
+    class="relative inline-flex items-center justify-center mr-3" 
     aria-controls="mobile-menu" 
     aria-expanded={mobileMenuOpen ? 'true' : 'false'} 
     variant="ghost" 

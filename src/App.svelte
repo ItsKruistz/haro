@@ -41,7 +41,6 @@
     <span class="sr-only">Open main menu</span>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="main-grid-item-icon w-[22px] h-[22px]" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4-4"/></svg>
 </Button>
-  </div>
 </nav>
 
 <main>
